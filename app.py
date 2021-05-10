@@ -97,5 +97,7 @@ def ast():
     if request.method == 'POST':
         return render_template('ast.html', showast = 1)
 
+if __name__ == '__main__':
+    app.run()
  
 
